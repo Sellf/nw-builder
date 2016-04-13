@@ -161,15 +161,9 @@ MAC ONLY: Pass a string containing the path to your own plist file. If a string 
 
 #### options.winIco
 Type: `String`  
-Default value: `null`
+Default value: `null`  
 
 WINDOWS ONLY: The path to your ICO icon file. If your don't provide your own it will use the one provided by NW.js. If you are building on MAC or LINUX you must have [Wine](https://www.winehq.org/) installed to use this option.
-
-#### options.winZip
-Type: `Boolean`
-Default value: `true`
-
-WINDOW ONLY: Instead of placing the application content inside the .exe file. The application content is placed next to the application.
 
 ### Manifest Options
 
